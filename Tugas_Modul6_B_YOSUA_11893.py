@@ -4,7 +4,7 @@ import numpy as np
 from tensorflow.keras.models import load_model
 from PIL import Image
 
-model = load_model(r'C:\Pembelajaran Mesin dan Pembelajaran Mendalam\Tugas6_B_11893\model_mobilenet.h5')
+model = load_model(r'model_mobilenet.h5')
 class_names = ['Matang', 'Mentah']
 
 def classify_image(image_path):
